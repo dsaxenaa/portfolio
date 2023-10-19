@@ -52,7 +52,7 @@ const Header = () => {
                           type: "spring",
                           stiffness: 90,
                           damping: 10,
-                          ease: "easeInOut",
+                          // ease: "easeInOut"
                         }}
                       ></motion.span>
                     )}
