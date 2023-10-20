@@ -22,7 +22,7 @@ export default function About() {
       and I recently graduated from Graphic Era University(Dehradun) with a degree in Bachelor's in Technology
       in <span className="font-bold">Computer Science and Engineering</span>. My interest has always been in web development, about how apps and websites are made.
       I have several projects in full-stack development and also did internships.
-        <span className="italic">{""}My favorite part of programming</span> is the
+        <span className="italic">{" "}My favorite part of programming</span> is the
         problem-solving aspect, trying to learn from my mistakes and learning about new technologies. My core stack
         is{" "}
         <span className="font-medium">
