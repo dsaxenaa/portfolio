@@ -89,13 +89,13 @@ export const projectsData = [
     tags: ["React", "Node.js","MongoDB", "BootStrap", "JWT"],
     imageUrl: rmtdevImg,
   },
-  {
-    title: "My Social App",
-    description:
-      "A Facebook-like social media app using React.js and Node.js and MySQL as database.",
-    tags: ["React", "HTML", "MySQL", "CSS", "Node.js"],
-    imageUrl: wordanalyticsImg,
-  },
+  // {
+  //   title: "My Social App",
+  //   description:
+  //     "A Facebook-like social media app using React.js and Node.js and MySQL as database.",
+  //   tags: ["React", "HTML", "MySQL", "CSS", "Node.js"],
+  //   imageUrl: wordanalyticsImg,
+  // },
   {
     title:"Weather Radio",
     description:"Get the latest weather updates of any place with this app built using React.js and Tailwind.",
