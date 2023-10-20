@@ -2,9 +2,10 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import React from "react";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import ecom from "@/public/ecom.png";
+import taxi from "@/public/taxi.png";
+import todo from "@/public/todo.png";
+import weather from "@/public/weather.png";
 
 export const links = [
   {
@@ -80,14 +81,14 @@ export const projectsData = [
     description:
       "A taxi-booking app with different booking options using Next.js, React.js, TypeScript, Tailwind CSS and MapBox along with Clerk user authentication system.",
     tags: ["React", "Next.js", "TypeScript", "Tailwind", "Mapbox","Stripe"],
-    imageUrl: corpcommentImg,
+    imageUrl: taxi,
   },
   {
     title: "E-Commerce Shopping Website",
     description:
       "Designed an E-commerce app for both user and admin using React.js ,Node.js and BootStrap along with MongoDB for database.",
     tags: ["React", "Node.js","MongoDB", "BootStrap", "JWT"],
-    imageUrl: rmtdevImg,
+    imageUrl: ecom,
   },
   // {
   //   title: "My Social App",
@@ -100,14 +101,14 @@ export const projectsData = [
     title:"Weather Radio",
     description:"Get the latest weather updates of any place with this app built using React.js and Tailwind.",
     tags:["React","Next.js", "Tailwind","Weather api"],
-    imageUrl:rmtdevImg
+    imageUrl: weather,
   },
   {
     title: "Todo Planner",
     description:
       "A Todo App made using React, Node.js, Bootstrap and MongoDB.",
     tags: ["React", "BootStrap", "MongoDB", "Node.js"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: todo,
   }
 ] as const;
 
